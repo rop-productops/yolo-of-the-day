@@ -1,0 +1,61 @@
+.link{text-decoration:none;}
+.log{
+    color:black;
+    position:absolute;
+    right:10%;
+    top:0px;
+    z-index:-1;
+    font:20px arial;
+    text-decoration:none;
+}
+h3{
+    font:30px arial;
+}
+.header
+{
+    text-align:center;
+    font:32px arial;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:none;
+    text-decoration:none; 
+}
+.titles
+{
+   width:90%;
+   font:25px arial;
+   background-color:gray;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   border:1px solid black;
+   text-decoration:none;
+}
+.yolos
+{
+   width:95%;
+   font:20px arial;
+   background-color:gray;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   border:1px solid black;
+   text-decoration:none;
+}
+.main{
+    width:90%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px dotted black;
+    background-color:white;
+    text-decoration:none; 
+}
+.body{
+    background-image: url(http://israel.rop.launchbrigade.com/yolo/img.png);
+    background-attachment: fixed;
+      background-repeat: repeat;
+        background-repeat: no-repeat;
+        background-color: #C0DEED;
+    text-decoration:none; 
+}
