@@ -24,5 +24,21 @@ function crunchbase_div_header($company_object) {
 
 }
 
+function crunchbase_funding($parsed){
+    
+    	print_r($parsed->data->relationships->funding_rounds->items[0]->name);
+    
+}
+
+function crunchbase_team_total($parsed){
+    
+    print_r($parsed->data->relationships->current_team->paging->total_items);
+    
+    print"/n";
+    
+}
+
+
+
 
 ?>
