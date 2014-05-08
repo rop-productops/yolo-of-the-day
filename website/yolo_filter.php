@@ -66,8 +66,7 @@ function make_oauth_header($url, $method){
     return $header;
 }
 
-$url="https://api.twitter.com/1.1/search/tweets.json?q=%23yolo&lang=en&result_type=recent&count=20";
-
+$url="https://api.twitter.com/1.1/search/tweets.json?q=%23yolo&lang=es&result_type=recent&count=69";
 //lang=languages; result_type= types of result ie mixed, popular, recent; count= number of yolos shown
 
 //Parameters link = https://dev.twitter.com/docs/api/1.1/get/search/tweets
