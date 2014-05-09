@@ -4,9 +4,7 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <style type="text/css">
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     
