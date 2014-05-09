@@ -10,7 +10,56 @@
 
   </head>
   <body>
-
+    
+    
+    
+    <!--BANNER-->
+    <div></div>
+    
+    
+    
+    
+    
+    <!--Executive Quote-->
+    
+    
+    
+    
+    
+    
+    <!--Middle Information-->
+    <div></div>
+        
+        <!--Left Block-->
+        <div></div>   
+        
+        
+        <!--Right Block-->
+        <div></div>
+    
+    
+    
+    <!--Map Info-->
+    <div></div>        
+    
+    
+    
+    
+    
+    
+    <!--Last Information-->
+    <div></div>
+    
+    
+    
+    
+    
+    
+    <!--FOOTER-->
+    <div></div>
+    
+    
+    <!--CODE-->
     <div id="crunchbase">
 
       <?php print_crunchbase_div("looker"); ?>
