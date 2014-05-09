@@ -38,6 +38,18 @@ function crunchbase_team_total($parsed){
     
 }
 
+function crunchbase_link($parsed){
+    
+    print_r($parsed->data->properties->name);
+    
+}
+
+function crunchbase_employee_bio($parsed){
+    
+    print_r($parsed->data)
+    
+}
+
 
 
 
