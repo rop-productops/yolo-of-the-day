@@ -17,15 +17,16 @@ function print_crunchbase_div($crunchbase_id) {
 
     $parsed = json_decode($result);
 
-	// convert json to object
-	$company = crunchbase_get_company($parsed);
-	
-	// call function for specific element
 	$header = crunchbase_div_header($parsed);
+	$company = crunchbase_company($parsed);
+	$funding = crunchbase_funding($parsed);
+	$team_total = crunchbase_team_total($parsed);
 
 	// print elements
-	$template->company = $company;
 	$template->header = $header;
+	$template->company = $company;
+	$template->funding = $funding;
+	$template->team_total = $team_total;
 
     // This file can be found in the templates directory
     $template->render('crunchbase_view.php');
@@ -37,22 +38,21 @@ function crunchbase_div_header($company_object) {
 }
 
 
-function crunchbase_get_company($json){
+function crunchbase_company($json){
     return "company";
 }
 
 function crunchbase_funding($parsed){
     
-    	print_r($parsed->data->relationships->funding_rounds->items[0]->name);
+    	return $parsed->data->relationships->funding_rounds->items[0]->name;
     
 }
 
 function crunchbase_team_total($parsed){
     
-    print_r($parsed->data->relationships->current_team->paging->total_items);
+    return $parsed->data->relationships->current_team->paging->total_items;
     
-    print"/n";
-    
+
 }
 
 
