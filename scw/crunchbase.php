@@ -55,6 +55,26 @@ function crunchbase_team_total($parsed){
 
 }
 
+function crunchbase_link($parsed){
+    
+    print_r($parsed->data->properties->name);
+    
+}
+
+function crunchbase_employee_bio($parsed){
+    
+    print_r($parsed->data)
+    
+}
+
+function crunchbase_markets($parsed){
+    $markets="";
+    $market_array=$parsed->data->relationships->markets->items;
+    foreach($market_array as $market){
+        $markets.=$market->name."\n";
+    }
+    echo $markets;
+}
 
 
 ?>
