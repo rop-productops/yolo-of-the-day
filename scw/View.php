@@ -1,4 +1,6 @@
-<?php //Adapted from: https://bitbucket.org/krzysztofr/sm-view class View {
+<?php //Adapted from: https://bitbucket.org/krzysztofr/sm-view
+
+class View {
         protected $template_directory = 'templates/';
         protected $variables = array();
         public function __construct( $template_directory = null )

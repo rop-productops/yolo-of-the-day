@@ -1,6 +1,12 @@
 <?php
 
+include_once("View.php");
+
+
 function print_crunchbase_div($crunchbase_id) {
+
+    $template = new View();
+
 	$url = "http://api.crunchbase.com/v/2/organization/looker?user_key=19fe1042062066b50d61f1962cfbd56d";
 
     $ch = curl_init($url);
@@ -11,17 +17,28 @@ function print_crunchbase_div($crunchbase_id) {
 
     $parsed = json_decode($result);
 
+	// convert json to object
+	$company = crunchbase_get_company($parsed);
+	
 	// call function for specific element
 	$header = crunchbase_div_header($parsed);
 
 	// print elements
-	print $header;
+	$template->company = $company;
+	$template->header = $header;
 
+    // This file can be found in the templates directory
+    $template->render('crunchbase_view.php');
 }
 
 function crunchbase_div_header($company_object) {
 	return "<span>Crunchbase</span>";
 
+}
+
+
+function crunchbase_get_company($json){
+    return "company";
 }
 
 function crunchbase_funding($parsed){
@@ -49,7 +66,6 @@ function crunchbase_employee_bio($parsed){
     print_r($parsed->data)
     
 }
-
 
 
 
