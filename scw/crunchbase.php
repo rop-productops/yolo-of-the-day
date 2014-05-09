@@ -67,6 +67,14 @@ function crunchbase_employee_bio($parsed){
     
 }
 
+function crunchbase_markets($parsed){
+    $markets="";
+    $market_array=$parsed->data->relationships->markets->items;
+    foreach($market_array as $market){
+        $markets.=$market->name."\n";
+    }
+    echo $markets;
+}
 
 
 ?>
