@@ -95,10 +95,11 @@ function crunchbase_employee_bio($parsed){
         } else {
             $bio="Nothing found";
         }
-
+        //Gives the employee name and bio
         echo "The employee is $employee_name","\n","His profile can be found at $url2","\n";
         echo "His bio:","\n",$bio,"\n";
-    }
+        }
+    //Calls the function for the first time
     get_bio($i,$parsed);
     $i+=1;
     
@@ -120,8 +121,8 @@ function crunchbase_employee_bio($parsed){
         $i+=1;
     }
 }
-
-echo "Out of employees","\n";
+    
+    echo "Out of employees","\n";
 }
 
 function crunchbase_markets($parsed){
