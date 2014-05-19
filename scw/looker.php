@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script>
 
-    </Script>
+    </script>
   </head>
   
   <body>
@@ -75,6 +75,4 @@
         <div></div>
     
     </div>
-    
-  </body>
-</html>
+   
