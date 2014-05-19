@@ -8,11 +8,11 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+
+    </Script>
   </head>
   
-  <script>
-  
-  </script>
   <body>
     
     
@@ -76,3 +76,5 @@
     
     </div>
     
+  </body>
+</html>
