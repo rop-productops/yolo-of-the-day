@@ -37,7 +37,6 @@ function crunchbase_div_header($company_object) {
 
 }
 
-
 function crunchbase_company($json){
     return "company";
 }
@@ -57,7 +56,7 @@ function crunchbase_team_total($parsed){
 
 function crunchbase_link($parsed){
     
-    print_r($parsed->data->properties->name);
+    print_r($parsed->data->properties->homepage_url);
     
 }
 
@@ -124,6 +123,10 @@ function crunchbase_employee_bio($parsed){
     
     echo "Out of employees","\n";
 }
+
+function crunchbase_founded_on($parsed){
+    print_r($parsed->data->properties->founded_on);
+};
 
 function crunchbase_markets($parsed){
     $markets="";
