@@ -11,7 +11,7 @@
     
     
     
-    <!--BANNER-->
+    <!-- 1. BANNER-->
     <div>
     
         <div></div>
@@ -31,7 +31,7 @@
     
     
     
-    <!--Executive Quote-->
+    <!-- 2. Executive Quote-->
     <div></div>
     
     
@@ -41,18 +41,18 @@
     <!--Middle Information-->
     <div>
         
-        <!--Left Block-->
+        <!-- 3. Left Block-->
         <div></div>
         <div></div> 
         
         
-        <!--Right Block-->
+        <!-- 4. Right Block-->
         <div></div>
         
     </div>
     
     
-    <!--Map Info-->
+    <!-- 5. Map Info-->
     <div></div>        
     
     
@@ -63,10 +63,10 @@
     <!--Last Information-->
     <div>
         
-        <!--Left Block-->
+        <!-- 6. Left Block-->
         <div></div>
         
-        <!--Right Block-->
+        <!-- 7. Right Block-->
         <div></div>
     
     </div>
@@ -76,7 +76,7 @@
     
     
     
-    <!--FOOTER-->
+    <!-- 8. FOOTER-->
     <div></div>
     
     
