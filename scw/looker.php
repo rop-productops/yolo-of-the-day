@@ -11,8 +11,9 @@
     
     
     
+
     <!-- 1. BANNER-->
-    <div>
+    <div class="1">
     
         <div></div>
         
@@ -51,15 +52,13 @@
         
     </div>
     
-    
     <!-- 5. Map Info-->
-    <div></div>        
+    <div id="google_map">
+    <?php print_google_map("looker"); ?>
     
     
     
-    
-    
-    
+    </div>        
     <!--Last Information-->
     <div>
         
@@ -71,28 +70,3 @@
     
     </div>
     
-    
-    
-    
-    
-    
-    <!-- 8. FOOTER-->
-    <div></div>
-    
-    
-    <!--CODE-->
-    <div id="google_maps">
-
-      <?php print_google_maps_div("looker"); ?>
-
-    </div>
-
-
-    <div id="crunchbase">
-
-      <?php print_crunchbase_div("looker"); ?>
-
-    </div>
-
-  </body>
-</html>
