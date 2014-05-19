@@ -11,8 +11,9 @@
     
     
     
-    <!--BANNER-->
-    <div>
+
+    <!-- 1. BANNER-->
+    <div class="1">
     
         <div></div>
         
@@ -31,7 +32,7 @@
     
     
     
-    <!--Executive Quote-->
+    <!-- 2. Executive Quote-->
     <div></div>
     
     
@@ -41,58 +42,31 @@
     <!--Middle Information-->
     <div>
         
-        <!--Left Block-->
+        <!-- 3. Left Block-->
         <div></div>
         <div></div> 
         
         
-        <!--Right Block-->
+        <!-- 4. Right Block-->
         <div></div>
         
     </div>
     
-    
-    <!--Map Info-->
-    <div></div>        
-    
-    
+    <!-- 5. Map Info-->
+    <div id="google_map">
+    <?php print_google_map("looker"); ?>
     
     
     
-    
+    </div>        
     <!--Last Information-->
     <div>
         
-        <!--Left Block-->
+        <!-- 6. Left Block-->
         <div></div>
         
-        <!--Right Block-->
+        <!-- 7. Right Block-->
         <div></div>
     
     </div>
     
-    
-    
-    
-    
-    
-    <!--FOOTER-->
-    <div></div>
-    
-    
-    <!--CODE-->
-    <div id="google_maps">
-
-      <?php print_google_maps_div("looker"); ?>
-
-    </div>
-
-
-    <div id="crunchbase">
-
-      <?php print_crunchbase_div("looker"); ?>
-
-    </div>
-
-  </body>
-</html>
