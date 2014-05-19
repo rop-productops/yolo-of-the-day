@@ -1,4 +1,5 @@
 <?php require_once "crunchbase.php" ?>
+<?php require_once "google_maps.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -80,6 +81,13 @@
     
     
     <!--CODE-->
+    <div id="google_maps">
+
+      <?php print_google_maps_div("looker"); ?>
+
+    </div>
+
+
     <div id="crunchbase">
 
       <?php print_crunchbase_div("looker"); ?>
