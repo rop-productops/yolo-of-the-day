@@ -28,9 +28,9 @@ function print_crunchbase_div($crunchbase_id) {
 	$template->header = $header;
 	$template->funding = $funding;
 	$template->team_total = $team_total;
-    $template->description = $company_description
-    $template->date_founded = $date_founded
-    $template->company_homepage_url = $company_link
+    $template->description = $company_description;
+    $template->date_founded = $date_founded;
+    $template->company_homepage_url = $company_link;
 
     // This file can be found in the templates directory
     $template->render('crunchbase_view.php');
@@ -40,7 +40,6 @@ function crunchbase_div_header($company_object) {
 	return "<span>Crunchbase</span>";
 
 }
-
 
 function crunchbase_company($json){
     return "company";
@@ -67,7 +66,7 @@ function crunchbase_company_description($parsed){
 
 function crunchbase_date_founded($parsed){
     
-    print_r($parsed->data->properties->founded_on)
+    print_r($parsed->data->properties->founded_on);
     
 }
 
@@ -140,6 +139,10 @@ function crunchbase_employee_bio($parsed){
     
     echo "Out of employees","\n";
 }
+
+function crunchbase_founded_on($parsed){
+    print_r($parsed->data->properties->founded_on);
+};
 
 function crunchbase_markets($parsed){
     $markets="";
