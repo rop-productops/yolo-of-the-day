@@ -11,7 +11,7 @@
     
     
     <!--BANNER-->
-    <div>
+    <div class="1">
     
         <div></div>
         
@@ -52,13 +52,13 @@
     
     
     <!--Map Info-->
-    <div></div>        
+    <div id="google_map">
+    <?php print_google_map("looker"); ?>
     
     
     
     
-    
-    
+    </div>        
     <!--Last Information-->
     <div>
         
