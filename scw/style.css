@@ -1,1 +1,53 @@
-12
+.wrap{
+ width:700px;
+ height:1450px;
+ float:center;
+ margin-left:auto;
+margin-right:auto;
+}
+.nav{
+    vertical-align:baseline;
+    list-style-type:none;
+    float:right;
+}
+li{
+   color:white;
+   background-color:transparent;
+   display:inline;
+   padding: 8px;
+}
+.body{
+    background-color:#C0DEED;
+}
+.banner
+{
+ width:700px;
+ height:250px;
+ background-color:black;
+}
+.exquote
+{
+    width:700px;
+    height:150px;
+    background-color:gray;
+}
+.lblock
+{
+    width:350px;
+    height:250px;
+    background-color:black;
+    float:left;
+}
+.rblock
+{
+    width:350px;
+    height:250px;
+    background-color:white;
+    float:right;
+    
+}
+.maps{
+    width:700px;
+    height:300px;
+    background-color:gray;  
+}
