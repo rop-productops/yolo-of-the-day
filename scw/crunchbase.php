@@ -60,19 +60,19 @@ function crunchbase_team_total($parsed){
 
 function crunchbase_company_description($parsed){
     
-    print_r($parsed->data->properties->description);
+    return $parsed->data->properties->description;
     
 }
 
 function crunchbase_date_founded($parsed){
     
-    print_r($parsed->data->properties->founded_on);
+    return $parsed->data->properties->founded_on;
     
 }
 
 function crunchbase_company_homepage_url($parsed){
     
-    print_r($parsed->data->properties->homepage_url);
+    return $parsed->data->properties->homepage_url;
     
 }
 

@@ -10,6 +10,6 @@
 <br>
 <?php print $this->date_founded ; ?>
 <br>
-<?php print $this->company_link ; ?>
+<?php print $this->company_homepage_url ; ?>
 
 </div>
