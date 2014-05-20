@@ -3,12 +3,12 @@
 include_once("View.php");
 
 
-function print_google_maps_div($company_id) {
+function print_google_map($company_id) {
 
     $template = new View();
 
     // This file can be found in the templates directory
-    $template->render('google_maps.php');
+    $template->render('google_maps_view.php');
 }
 
 
