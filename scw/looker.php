@@ -9,64 +9,45 @@
   <body class="body">
     <div class="wrap">
     
-    <!--BANNER--> 
-    <div class="banner">
+        <div class="banner">
     
-        <div></div>
-        
-        
-        <ul class="nav">
-            <li>Lorem</li>
-            <li>Ipsum</li>
-            <li>Stuff</li>
-            <li>People</li>
-        </ul>
+            <div class="hlogo"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
+            
+            <ul class="nav">
+                <li><a>PROFILES</a></li>
+                <li><a>WORKSPACES</a></li>
+                <li><a>NEWS</a></li>
+                <li><a>RESOURCES</a></li>
+            </ul>
+    </br>
+            <div class="quote">
+            <h1>Looker, finds.</h1>
+            <h10>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h10></div>
+        </div>
     
-        <div></div>
     
+        <div class="exquote"></div>
+    
+    
+        <div>
+            <div class="lblock"></div>
+            <div class="rblock"></div>
+        </div>    
 
+        <div class="maps" id="google_map">
+            <?php print_google_map("looker"); ?>
+        </div>        
+            <div>
+            <div class="people">
+                <div class="person1"></div> 
+                <div class="person2"></div>
+            </div>
+       
+            <div class="crunch" id="crunchbase"><?php print_crunchbase_div("looker"); ?></div>
+            </div>
+        <div class="foot">
+            <div class="flogo" align="center"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
+        </div>
     </div>
-    
-    
-    <!--Executive Quote-->
-    <div class="exquote"></div>
-    
-    
-<div>
-        
-        <!--Left Block-->
-        <div class="lblock"></div>
-        <div></div> 
-        
-        
-        <!--Right Block-->
-        <div class="rblock"></div>
-        
-</div>    
-
-<!-- 5. Map Info-->
-    <div class="maps" id="google_map">
-    <?php print_google_map("looker"); ?>
-        
-    </div>        
-    <!--Last Information-->
-    <div>
-        
-        <!-- 6. Left Block-->
-        <div></div>
-        
-        <!-- 7. Right Block-->
-        <div></div>
-    
-    </div>
-    
-    
-    <!--CODE-->
-    <div id="crunchbase">
-
-      <?php print_crunchbase_div("looker"); ?>
-
-    </div>
-</div>
   </body>
 </html>
