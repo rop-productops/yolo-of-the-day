@@ -1,7 +1,3 @@
-<html>
-<head>
-</head>
-<body>
 
 <div>
 
@@ -18,6 +14,3 @@
   Homepage URL: <?php print $this->company_homepage_url ; ?>
 
 </div>
-
-</body>
-</html>

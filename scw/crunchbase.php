@@ -37,7 +37,7 @@ function print_crunchbase_div($crunchbase_id) {
 }
 
 function crunchbase_div_header($company_object) {
-	return "<span>Crunchbase</span>";
+	return $parsed->data->properties->name;
 
 }
 
