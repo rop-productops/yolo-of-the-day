@@ -36,13 +36,10 @@ function print_crunchbase_div($crunchbase_id) {
     $template->render('crunchbase_view.php');
 }
 
-function crunchbase_div_header($company_object) {
+function crunchbase_div_header($parsed) {
+
 	return $parsed->data->properties->name;
 
-}
-
-function crunchbase_company($json){
-    return "company";
 }
 
 function crunchbase_funding($parsed){
