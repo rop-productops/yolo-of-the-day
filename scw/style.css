@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrap{
  width:700px;
  float:center;
@@ -27,6 +28,16 @@ li{
 .exquote
 {
     width:700px;
+=======
+.1{
+ width:900px;
+ height:300px;
+ background-color: black;
+}
+
+.2{
+    width:900px;
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e
     height:150px;
     background-color:gray;
 }
@@ -58,7 +69,14 @@ li{
 {
     
 }
+<<<<<<< HEAD
 .8
 {
     
 }
+=======
+
+.3{
+    width:450;
+}
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e

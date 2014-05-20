@@ -18,15 +18,19 @@ function print_crunchbase_div($crunchbase_id) {
     $parsed = json_decode($result);
 
 	$header = crunchbase_div_header($parsed);
-	$company = crunchbase_company($parsed);
 	$funding = crunchbase_funding($parsed);
 	$team_total = crunchbase_team_total($parsed);
+	$company_description = crunchbase_company_description($parsed);
+	$date_founded = crunchbase_date_founded($parsed);
+	$company_link = crunchbase_company_homepage_url($parsed);
 
 	// print elements
 	$template->header = $header;
-	$template->company = $company;
 	$template->funding = $funding;
 	$template->team_total = $team_total;
+    $template->description = $company_description;
+    $template->date_founded = $date_founded;
+    $template->company_homepage_url = $company_link;
 
     // This file can be found in the templates directory
     $template->render('crunchbase_view.php');
@@ -36,7 +40,6 @@ function crunchbase_div_header($company_object) {
 	return "<span>Crunchbase</span>";
 
 }
-
 
 function crunchbase_company($json){
     return "company";
@@ -55,9 +58,21 @@ function crunchbase_team_total($parsed){
 
 }
 
-function crunchbase_link($parsed){
+function crunchbase_company_description($parsed){
     
-    print_r($parsed->data->properties->name);
+    print_r($parsed->data->properties->description);
+    
+}
+
+function crunchbase_date_founded($parsed){
+    
+    print_r($parsed->data->properties->founded_on);
+    
+}
+
+function crunchbase_company_homepage_url($parsed){
+    
+    print_r($parsed->data->properties->homepage_url);
     
 }
 
@@ -124,6 +139,10 @@ function crunchbase_employee_bio($parsed){
     
     echo "Out of employees","\n";
 }
+
+function crunchbase_founded_on($parsed){
+    print_r($parsed->data->properties->founded_on);
+};
 
 function crunchbase_markets($parsed){
     $markets="";
