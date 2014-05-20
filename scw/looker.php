@@ -6,29 +6,31 @@
 
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+
+    </script>
   </head>
-  
-  <script>
-  
-  </script>
-  <body>
+  <body class="body">
+    <div class="wrap">
     
-    
+    <!--BANNER--> 
+    <div class="banner">
     
 
     <!-- 1. BANNER-->
     <div class="1">
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e
     
         <div></div>
         
         
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="nav">
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Stuff</li>
+            <li>Peop</li>
         </ul>
     
         <div></div>
@@ -38,41 +40,24 @@
     
     
     
+<<<<<<< HEAD
+    <!--Executive Quote-->
+    <div class="exquote"></div>
+=======
     <!-- 2. Executive Quote-->
     <div></div>
     
     
     
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e
     
     
-    <!--Middle Information-->
-    <div>
+
         
-        <!-- 3. Left Block-->
-        <div></div>
+<<<<<<< HEAD
+        <!--Left Block-->
+        <div class="lblock"></div>
         <div></div> 
         
         
-        <!-- 4. Right Block-->
-        <div></div>
-        
-    </div>
-    
-    <!-- 5. Map Info-->
-    <div id="google_map">
-    <?php print_google_map("looker"); ?>
-    
-    
-    
-    </div>        
-    <!--Last Information-->
-    <div>
-        
-        <!-- 6. Left Block-->
-        <div></div>
-        
-        <!-- 7. Right Block-->
-        <div></div>
-    
-    </div>
-    
+        <!--Righ 

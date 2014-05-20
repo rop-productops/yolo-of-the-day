@@ -1,3 +1,34 @@
+<<<<<<< HEAD
+.wrap{
+ width:700px;
+ float:center;
+ margin-left:auto;
+margin-right:auto;
+}
+.nav{
+    vertical-align:baseline;
+    list-style-type:none;
+    float:right;
+}
+li{
+   color:white;
+   background-color:transparent;
+   display:inline;
+   padding: 8px;
+}
+.body{
+    background-color:#C0DEED;
+}
+.banner
+{
+ width:700px;
+ height:250px;
+ background-color:black;
+}
+.exquote
+{
+    width:700px;
+=======
 .1{
  width:900px;
  height:300px;
@@ -6,10 +37,46 @@
 
 .2{
     width:900px;
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e
     height:150px;
-    background-color: black;
+    background-color:gray;
 }
+.lblock
+{
+    width:350px;
+    height:250px;
+    background-color:black;
+    float:left;
+}
+.rblock
+{
+    width:350px;
+    height:250px;
+    background-color:white;
+    float:right;
+    
+}
+.map{
+   width:700px;
+ height:250px;
+ background-color:black;  
+}
+.6
+{
+    
+}
+.7
+{
+    
+}
+<<<<<<< HEAD
+.8
+{
+    
+}
+=======
 
 .3{
     width:450;
 }
+>>>>>>> 0d0b0f5902ee155f093e427faf986e43bdfdce4e
