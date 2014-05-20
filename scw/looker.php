@@ -5,23 +5,22 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
+  <body class="body">
+    <div class="wrap">
     
-    
-    
-    <!--BANNER-->
-    <div class="1">
+    <!--BANNER--> 
+    <div class="banner">
     
         <div></div>
         
         
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="nav">
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>Stuff</li>
+            <li>Peop</li>
         </ul>
     
         <div></div>
@@ -32,28 +31,22 @@
     
     
     <!--Executive Quote-->
-    <div></div>
+    <div class="exquote"></div>
     
     
-    
-    
-    
-    <!--Middle Information-->
-    <div>
+
         
         <!--Left Block-->
-        <div></div>
+        <div class="lblock"></div>
         <div></div> 
         
         
         <!--Right Block-->
-        <div></div>
+        <div class="rblock"></div>
         
-    </div>
-    
     
     <!--Map Info-->
-    <div id="google_map">
+    <div class="map" id="google_map">
     <?php print_google_map("looker"); ?>
     
     
