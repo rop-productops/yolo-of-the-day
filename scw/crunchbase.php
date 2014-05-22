@@ -91,4 +91,7 @@ function crunchbase_markets($parsed){
     foreach($market_array as $market){
         $markets.=$market->name."\n";
     }
-    echo $mark
+    echo $market;
+}
+
+?>
