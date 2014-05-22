@@ -7,7 +7,7 @@ function print_crunchbase_div($crunchbase_id) {
 
     $template = new View();
 
-	$url = "http://api.crunchbase.com/v/2/organization/looker?user_key=19fe1042062066b50d61f1962cfbd56d";
+	$url = "http://api.crunchbase.com/v/2/organization/".$crunchbase_id."?user_key=19fe1042062066b50d61f1962cfbd56d";
 
     $ch = curl_init($url);
 
