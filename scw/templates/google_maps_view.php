@@ -8,8 +8,8 @@
       
       #map-canvas 
 	{
-        height:400px;
-	width: 700px;
+        height:350px;
+	width: 900px;
         margin: 10px;
         padding: 10px
       	}
