@@ -40,8 +40,6 @@ function print_crunchbase_div($crunchbase_id) {
 if( $v==0 ){
     
     $parsed = 0;
-    
-}
 
 function crunchbase_div_header($parsed) {
 
@@ -92,6 +90,8 @@ function crunchbase_markets($parsed){
         $markets.=$market->name."\n";
     }
     echo $market;
+}
+
 }
 
 ?>
