@@ -37,9 +37,9 @@ function print_crunchbase_div($crunchbase_id) {
     $template->render('crunchbase_view.php');
 }
 
-if( $v==0 ){
+if( $v== "null" ){
     
-    $parsed = 0;
+    $v = $parsed;
 
 function crunchbase_div_header($parsed) {
 
