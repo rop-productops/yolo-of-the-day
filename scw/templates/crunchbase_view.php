@@ -1,16 +1,15 @@
 
-<div>
+<div class="crunch">
 
-  <?php print $this->header ; ?>
+ <div class="Looker"> <?php print $this->header ; ?></div>
   <br>
-  Funding: <?php print $this->funding ; ?>
+  <div class="small-font fund"> <span class="font_">Funding:</span> <?php print $this->funding ; ?> </div>
+  <div class="small-font employ"> Total employees: <?php print $this->team_total ; ?> </div>
   <br>
-  Total employees: <?php print $this->team_total ; ?>
+  <div class="small-font"> <span class="font_">Description:</span> <?php print $this->description ; ?> </div>
   <br>
-  Description: <?php print $this->description ; ?>
+  <div class="small-font"> <span class="font_">Date founded:</span> <?php print $this->date_founded ; ?> </div>
   <br>
-  Date founded: <?php print $this->date_founded ; ?>
-  <br>
-  Homepage URL: <?php print $this->company_homepage_url ; ?>
+  <div class="small-font"> <span class="font_">Homepage URL:</span> <?php print $this->company_homepage_url ; ?> </div>
 
 </div>
