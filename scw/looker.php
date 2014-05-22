@@ -39,12 +39,15 @@
             <?php print_google_map("looker"); ?>
         </div>        
             <div>
-            <div class="people">
-                <div class="person1"></div> 
-                <div class="person2"></div>
-            </div>
-       
-            <div class="crunch" id="crunchbase"><?php print_crunchbase_div("looker"); ?></div>
+            	<div class="people">
+                	<div class="person1"></div> 
+                	<div class="person2"></div>
+            	</div>
+<!-- Crunch base HERE -->       
+            	<div class="crunch" id="crunchbase">
+		<?php print_crunchbase_div("looker"); ?>
+		</div>
+
             </div>
         <div class="foot">
             <div class="flogo" align="center"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
