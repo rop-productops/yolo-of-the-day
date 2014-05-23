@@ -1,9 +1,0 @@
-<?php
-
-include_once('DB-include.php');
-
-function get_member_entry( $ID){
-$my_query = select * from Members where ID
-}
-
-?>
