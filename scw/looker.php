@@ -30,7 +30,7 @@
             <div class="lblock">
                 <div class="top">
                 </div>
-                <div class="bottom">
+                <div class="info">
                 <p class="blink"></p>
                 </div>
             </div>
