@@ -11,3 +11,4 @@
   <br>
   <?php if($this->date_founded != NULL){print '<div class="small-font"> <span class="font_">Date founded:</span>'.$this->date_founded.'</div>'
   <br>
+</div>
