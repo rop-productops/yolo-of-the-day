@@ -85,9 +85,10 @@ li{
 .crunch
 {
     width:450px;
-    height:250px;
+    /* height:250px; */
     background-color:white;
     float:right;
+
 }
 .foot
 {
@@ -96,8 +97,39 @@ li{
     height:150px;
     background-color:gray;
 }
-.heropic{
-    float:right;
-    right:0px;
-    z-index:-1;
+
+.font_ {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Looker {
+    font-size:20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.small-font {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.fund {
+    
+}
+
+.employ {
+    
+}
+
+.center {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+    float: left;
+>>>>>>> c8f26cd3601d12ce7941dfc8a67ecfe39301c7d0
 }
