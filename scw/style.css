@@ -90,7 +90,7 @@ li{
 .crunch
 {
     width:450px;
-    height:250px;
+    /* height:250px; */
     background-color:white;
     float:right;
     border: 1px solid #999999;
