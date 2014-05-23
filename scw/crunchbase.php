@@ -57,8 +57,13 @@ function crunchbase_team_total($parsed){
 }
 
 function crunchbase_company_description($parsed){
+    $max_length=140;
     
-    return $parsed->data->properties->description;
+    if(strlen($parsed->data->properties->description)<$max_length){
+        return $parsed->data->properties->description;
+    } else if($parsed->data->properties->description!=NULL) {
+        return substr($parsed->data->properties->description,0,$max_length)."...";
+    }
     
 }
 
