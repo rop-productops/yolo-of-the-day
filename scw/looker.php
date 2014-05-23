@@ -20,17 +20,13 @@
                 <li><a>RESOURCES</a></li>
             </ul>
             </div>
-    </br>
+    
         <div class="quote">
             <h1>Looker, finds.</h1>
-            <h10>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h10></div>
+            <h10>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
         </div>
-    
-    
-        <div class="exquote"></div>
-    
-    
-        <div>
+        <div class="exquote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae."</div>
+        <div class="business">
             <div class="lblock">
                 <div>
                 </div>
@@ -44,7 +40,6 @@
                 <h1 class="center">Linked In (logo)</h1>
             </div>
         </div>    
-
         <div class="maps" id="google_map">
             <?php print_google_map("looker"); ?>
         </div>        
