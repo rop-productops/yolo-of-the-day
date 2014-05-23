@@ -14,10 +14,10 @@
         
             <div class="nav">
             <ul>
-                <li><a href="#">PROFILES</a></li>
-                <li><a href="#">WORKSPACES</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">RESOURCES</a></li>
+                <li class="menu"><a href="#">PROFILES</a></li>
+                <li class="menu"><a href="#">WORKSPACES</a></li>
+                <li class="menu"><a href="#">NEWS</a></li>
+                <li class="menu"><a href="#">RESOURCES</a></li>
             </ul>
             </div>
     
@@ -25,13 +25,13 @@
             <h1 class="look">Looker, finds.</h1>
             <h10 class="hero_quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
         </div>
-        <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae."</h1></div>
+        <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum."</h1></div>
         <div class="business">
             <div class="lblock">
-                <div class="top">
+                <div class="top"><img class="blogo" align="right" src="http://looker.com/sites/all/themes/looker/logo.png">
                 </div>
-                <div class="info">
-                <p class="blink"></p>
+                <div class="binfo">
+                <p class="blink">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada.</p>
                 </div>
             </div>
             <div class="rblock">
