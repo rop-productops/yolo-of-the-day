@@ -62,6 +62,7 @@ li{
 }
 .business
 {
+    margin-top:-20px;
     width:900px;
     height:250px;
     background-color:white;
@@ -81,7 +82,7 @@ li{
     float:right;
 }
 .maps{
-    margin-top:100px;
+    margin-top:36px;
     width:900px;
     height:350px;
     background-color:white;  
@@ -106,7 +107,7 @@ li{
     margin-top:250px;
     width:900px;
     height:150px;
-    background-color:gray;
+    background-color:#2E64FE;
 }
 
 .font_ {
@@ -132,14 +133,22 @@ li{
 .employ {
     
 }
-
-.center {
+.desc{
+    margin:10px;
+}
+.linked{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
     text-align:center;
-    height:100;
-    width: 900px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.center {
+    height:100;
+    width: 900px;
+    background-color:#2E64FE;
 }
 
 .left {
