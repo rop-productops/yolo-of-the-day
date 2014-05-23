@@ -37,10 +37,6 @@ function print_crunchbase_div($crunchbase_id) {
     $template->render('crunchbase_view.php');
 }
 
-if( $v== "null" ){
-    
-    $v = $parsed;
-
 function crunchbase_div_header($parsed) {
 
 	return $parsed->data->properties->name;
@@ -90,8 +86,6 @@ function crunchbase_markets($parsed){
         $markets.=$market->name."\n";
     }
     echo $market;
-}
-
 }
 
 ?>
