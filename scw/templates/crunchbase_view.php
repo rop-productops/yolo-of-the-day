@@ -10,5 +10,10 @@
   <?php if($this->description != NULL){print '<div class="small-font"> <span class="font_">Description:</span>'.$this->description.'</div>' ;} ?>
   <br>
   <?php if($this->date_founded != NULL){print '<div class="small-font"> <span class="font_">Date founded:</span>'.$this->date_founded.'</div>'
+<<<<<<< HEAD
   
 </div>
+=======
+  <br>
+</div>
+>>>>>>> 565b4a76609073852f5b15cf3a9991cc40152871
