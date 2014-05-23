@@ -14,16 +14,16 @@
         
             <div class="nav">
             <ul>
-                <li><a>PROFILES</a></li>
-                <li><a>WORKSPACES</a></li>
-                <li><a>NEWS</a></li>
-                <li><a>RESOURCES</a></li>
+                <li><a href="#">PROFILES</a></li>
+                <li><a href="#">WORKSPACES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">RESOURCES</a></li>
             </ul>
             </div>
     
         <div class="quote">
-            <h1>Looker, finds.</h1>
-            <h10>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
+            <h1 class="look">Looker, finds.</h1>
+            <h10 class="hero_quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
         </div>
         <div class="exquote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae."</div>
         <div class="business">
@@ -54,5 +54,9 @@
 		</div>
             </div>
         <div class="foot">
-            <div class="flogo" align="center"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
+            <div class="flogo" align="center" margin-top="10px"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100" ></div>
+        </div>
+        
+    </body>
+    </html>
        

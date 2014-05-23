@@ -6,20 +6,22 @@
     margin-right:auto;
 }
 .flogo{
-    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
 }
 .nav{
     vertical-align:baseline;
     list-style-type:none;
     float:right;
 }
-h1{
-    margin-left:10px;
+.look{
+    margin-left:30px;
     font-family:Arial,Helvetica,sans-serif;
     color:white;
 }
-h10{
-    margin-left:10px;
+.hero_quote{
+    margin-left:30px;
     font-size:85%;
     font-style:italic;
     font-family:Arial,Helvetica,sans-serif;
@@ -31,7 +33,9 @@ h10{
     background-color:transparent;
     color:white;
 }
+a:hover {color:gray;}
 a{
+    text-decoration:none;
     font-family:Arial,Helvetica,sans-serif;
     background-color:transparent;
     color:white;
@@ -139,6 +143,6 @@ li{
 }
 
 .left {
-    float: left;
+    float:left;
 >>>>>>> c8f26cd3601d12ce7941dfc8a67ecfe39301c7d0
 }
