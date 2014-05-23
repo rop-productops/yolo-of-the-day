@@ -5,10 +5,6 @@
     margin-left:auto;
     margin-right:auto;
 }
-.hlogo{
-    float:left;
-    margin:20px;
-}
 .flogo{
     top:0px;
 }
@@ -16,7 +12,6 @@
     vertical-align:baseline;
     list-style-type:none;
     float:right;
-    margin:10px;
 }
 h1{
     margin-left:10px;
@@ -51,7 +46,7 @@ li{
 {
     width:900px;
     height:250px;
-    background-color:black;
+    background-image:url(https://c9.io/israelo/rop/workspace/banner.png);
 }
 .exquote
 {
@@ -100,4 +95,9 @@ li{
     width:900px;
     height:150px;
     background-color:gray;
+}
+.heropic{
+    float:right;
+    right:0px;
+    z-index:-1;
 }

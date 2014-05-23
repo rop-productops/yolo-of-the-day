@@ -11,15 +11,15 @@
     <div class="wrap">
     
         <div class="banner">
-    
-            <div class="hlogo"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
-            
-            <ul class="nav">
+        
+            <div class="nav">
+            <ul>
                 <li><a>PROFILES</a></li>
                 <li><a>WORKSPACES</a></li>
                 <li><a>NEWS</a></li>
                 <li><a>RESOURCES</a></li>
             </ul>
+            </div>
     </br>
             <div class="quote">
             <h1>Looker, finds.</h1>
@@ -51,7 +51,4 @@
             </div>
         <div class="foot">
             <div class="flogo" align="center"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
-        </div>
-    </div>
-  </body>
-</html>
+       
