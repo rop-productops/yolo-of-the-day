@@ -25,12 +25,13 @@
             <h1 class="look">Looker, finds.</h1>
             <h10 class="hero_quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
         </div>
-        <div class="exquote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae."</div>
+        <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae."</h1></div>
         <div class="business">
             <div class="lblock">
-                <div>
+                <div class="top">
                 </div>
-                <div>
+                <div class="bottom">
+                <p class="blink"></p>
                 </div>
             </div>
             <div class="rblock">
