@@ -1,16 +1,14 @@
 
-<div>
+<div class="crunch">
 
-  <?php print $this->header ; ?>
+ <div class="Looker"> <?php print $this->header ; ?></div>
   <br>
-  Funding: <?php print $this->funding ; ?>
+  <?php if($this->funding != NULL){print '<div class="small-font fund"> <span class="font_">Funding:</span>'.$this->funding.'</div>' ;} ?>
   <br>
-  Total employees: <?php print $this->team_total ; ?>
+  <?php if($this->team_total != NULL){print '<div class="small-font employ"> Total employees:'.$this->team_total.'</div>' ;} ?>
   <br>
-  Description: <?php print $this->description ; ?>
+  <?php if($this->description != NULL){print '<div class="small-font"> <span class="font_">Description:</span>'.$this->description.'</div>' ;} ?>
   <br>
-  Date founded: <?php print $this->date_founded ; ?>
-  <br>
-  Homepage URL: <?php print $this->company_homepage_url ; ?>
+  <?php if($this->date_founded != NULL){print '<div class="small-font"> <span class="font_">Date founded:</span>'.$this->date_founded.'</div>' ;} ?>
 
-</div>
+</div><
