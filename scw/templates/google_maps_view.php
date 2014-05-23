@@ -25,28 +25,40 @@
         var mapOptions = {
           center: new google.maps.LatLng(36.9794318, -122.0310751),
           zoom: 14
+
         };
         
         
     
         var map = new google.maps.Map(document.getElementById("map-canvas"),
            mapOptions);
+        var contentString = '<script src="//platform.linkedin.com/in.js" type="text/javascript">&lt;/script>'+
+            '<script type="IN/CompanyProfile" data-id="LinkedIn" data-format="inline">&lt;/script>'
            
-            function addMarker(location) {
-                marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
-            }
+           contentString='<h> LOOKER</h>'
+        var infowindow = new google.maps.InfoWindow({
+      content: contentString
+        });
 
-           Looker = new google.maps.LatLng(36.973983,-122.027819);
-           addMarker(Looker);
+           
+        function addMarker(location) {
+            marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+            
+        }
+
+       Looker = new google.maps.LatLng(36.973983,-122.027819);
+       addMarker(Looker);
+       google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(map,marker);
+             });
       }
       google.maps.event.addDomListener(window, 'load', initialize);
       
     </script>
- 
- 
+
     <div id="map-canvas"/>
 
 </div>

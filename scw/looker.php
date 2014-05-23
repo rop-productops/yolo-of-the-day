@@ -21,7 +21,7 @@
                 <li><a>RESOURCES</a></li>
             </ul>
     </br>
-            <div class="quote">
+        <div class="quote">
             <h1>Looker, finds.</h1>
             <h10>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h10></div>
         </div>
@@ -31,8 +31,18 @@
     
     
         <div>
-            <div class="lblock"></div>
-            <div class="rblock"></div>
+            <div class="lblock">
+                <div>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="rblock">
+                <p class="hlogo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae. Aliquam ut quam non quam cursus mattis. Nulla eu ante ante. Maecenas at lectus lobortis, ornare velit at, mattis nibh. In hac habitasse platea dictumst. Vestibulum laoreet malesuada justo eu eleifend. Nam ac ornare leo. Donec sollicitudin nisi in hendrerit viverra. In sed lacus at tellus iaculis luctus. Duis ullamcorper vitae turpis ac vestibulum. Quisque sed pellentesque mi, sit amet sollicitudin neque.</p>
+            </div>
+            <div>
+                <h1 class="center">Linked In (logo)</h1>
+            </div>
         </div>    
 
         <div class="maps" id="google_map">
@@ -47,7 +57,6 @@
             	<div class="crunch" id="crunchbase">
 		<?php print_crunchbase_div("looker"); ?>
 		</div>
-
             </div>
         <div class="foot">
             <div class="flogo" align="center"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100"></div>
