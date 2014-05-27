@@ -10,8 +10,6 @@
 	{
         height:350px;
 	width: 900px;
-        margin: 10px;
-        padding: 10px
       	}
       
       
