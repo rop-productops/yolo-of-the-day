@@ -137,3 +137,7 @@ li{
 .left {
     float: left;
 }
+
+td {
+    width: 100%;
+}
