@@ -189,3 +189,7 @@ a{
     float:left;
 >>>>>>> c8f26cd3601d12ce7941dfc8a67ecfe39301c7d0
 }
+
+td {
+    width: 100%;
+}
