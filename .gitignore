@@ -1,2 +1,3 @@
-website/config/*
-scw/config/*
+/website/config/*
+/scw/config/*
+/scw/config/database.php
