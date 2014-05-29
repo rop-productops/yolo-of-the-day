@@ -2,6 +2,7 @@
 <div class="crunch">
  <DIv>
 <!-- Border to see what it is -->
+<!-- Border oblivious to what is inside it? Will that make random lines if there is no info? -->
   
    <div class="Looker"> <?php print $this->header ; ?></div>
   <BR />
