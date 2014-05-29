@@ -1,6 +1,7 @@
 
 <div class="crunch">
- <Table>
+ <Table border=1>
+<!-- Border to see what it is -->
   <Tr>
    <td class="Looker"> <?php print $this->header ; ?></td>
   </TR>
