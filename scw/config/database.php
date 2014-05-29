@@ -1,7 +1,7 @@
 <?php 
 return array(
-	'user' => 'trevorpesout',
+	'user' => 'jharrison',
 	'pass' => '',
 	'name' => 'c9',
-	'host' => '127.6.186.129',
+	'host' => '127.9.106.1',
 );
