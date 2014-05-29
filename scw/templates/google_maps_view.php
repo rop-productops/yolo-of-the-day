@@ -17,6 +17,7 @@
       
       
     </style>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7398U731Zi88A0JBIE0AuUYLVIKRzcmY&sensor=FALSE">
     </script>
@@ -32,12 +33,15 @@
     
         var map = new google.maps.Map(document.getElementById("map-canvas"),
            mapOptions);
-        var contentString = '<script src="//platform.linkedin.com/in.js" type="text/javascript">&lt;/script>'+
-            '<script type="IN/CompanyProfile" data-id="LinkedIn" data-format="inline">&lt;/script>'
-           
-           contentString='<h> LOOKER</h>'
+        
+        var contentElement = document.createElement("div")
+        contentElement.setAttribute("style", "width:360px; height:256px;")
+        contentElement.innerHTML = '\x3cscript type="IN/CompanyProfile" data-id="1502592" data-format="inline">\x3c/script>'
+        
+        IN.parse(contentElement);
+        
         var infowindow = new google.maps.InfoWindow({
-      content: contentString
+            content: contentElement
         });
 
            
