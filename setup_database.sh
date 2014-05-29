@@ -2,9 +2,9 @@
 mysql-ctl start
 
 sleep 2
-mysql -u$C9_USER -h$IP c9 <scw/config/database.sql
+mysql -u$C9_USER -h$IP c9 <scw/database.sql
 
-CONFIG=config.php
+CONFIG=scw/config/database.php
 echo "<?php " >$CONFIG
 echo -ne "return array(\n\t'user' => '" >>$CONFIG
 echo -ne $C9_USER >>$CONFIG
