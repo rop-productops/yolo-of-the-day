@@ -12,11 +12,11 @@ CREATE TABLE `Members` (
   `CrunchbaseID` varchar(30) NOT NULL,
   `Latitude` varchar(16) NOT NULL,
   `Longitude` varchar(16) NOT NULL,
-  `Full name` varchar(30) NOT NULL,
+  `Full_Name` varchar(30) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `Members` (`ID`, `LinkedinID`, `CrunchbaseID`, `Latitude`, `Longitude`, `Full name`) VALUES
+INSERT INTO `Members` (`ID`, `LinkedinID`, `CrunchbaseID`, `Latitude`, `Longitude`, `Full_Name`) VALUES
 ('nextspace',	'1160913',	'nextspace',	'36.975236',	'-122.026062',	'Nextspace'),
 ('arqetype',	'3544387',	'arqetype-inc',	'36.976922',	'-122.029225',	'Arqetype inc'),
 ('bloofusion',	'3530187',	'bloofusion',	'36.975266',	'-122.026157',	'Bloofusion'),
@@ -36,16 +36,16 @@ INSERT INTO `Members` (`ID`, `LinkedinID`, `CrunchbaseID`, `Latitude`, `Longitud
 DROP TABLE IF EXISTS `Significant_Employees`;
 CREATE TABLE `Significant_Employees` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `Full Name` varchar(30) NOT NULL,
+  `Full_Name` varchar(30) NOT NULL,
   `Position` varchar(30) NOT NULL,
   `Company_ID` varchar(30) NOT NULL,
   `About` varchar(200) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `Significant_Employees` (`ID`, `Full Name`, `Position`, `Company_ID`, `About`) VALUES
+INSERT INTO `Significant_Employees` (`ID`, `Full_Name`, `Position`, `Company_ID`, `About`) VALUES
 (1,	'Scott Hoover',	'Data scientist',	'looker',	'twitter: GentleHoovs'),
 (2,	'Mike Xu',	'Dirty Looker',	'looker',	'Easily bored.'),
 (3,	'Bob Cagle',	'CEO',	'productops',	'contact at bob(-at)productops.com');
 
--- 2014-05-22 17:15:59
+-- 2014-05-29 16:25:32
