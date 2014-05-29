@@ -1,14 +1,19 @@
 
 <div class="crunch">
-
- <div class="Looker"> <?php print $this->header ; ?></div>
-  <br>
-  <?php if($this->funding != NULL){print '<div class="small-font fund"> <span class="font_">Funding:</span>'.$this->funding.'</div>' ;} ?>
-  <br>
-  <?php if($this->team_total != NULL){print '<div class="small-font employ"> Total employees:'.$this->team_total.'</div>' ;} ?>
-  <br>
-  <?php if($this->description != NULL){print '<div class="small-font"> <span class="font_">Description:</span>'.$this->description.'</div>' ;} ?>
-  <br>
-  <?php if($this->date_founded != NULL){print '<div class="small-font"> <span class="font_">Date founded:</span>'.$this->date_founded.'</div>' ;} ?>
-
-</div><
+ <Table border=1>
+<!-- Border to see what it is -->
+  <Tr>
+   <td class="Looker"> <?php print $this->header ; ?></td>
+  </TR>
+  <TR>
+  <?php if($this->funding != NULL){print '<TD style="width: 50%;" class="small-font fund"> <span class="font_">Funding:</span>'.$this->funding.'</td>' ;} ?>
+  <?php if($this->team_total != NULL){print '<td style="width: 50%;" class="small-font employ"> Total employees:'.$this->team_total.'</td>' ;} ?>
+  </TR>
+  <TR>
+  <?php if($this->description != NULL){print '<td class="small-font"> <span class="font_">Description:</span>'.$this->description.'</td>' ;} ?>
+  </TR>
+  <TR>
+  <?php if($this->date_founded != NULL){print '<td class="small-font"> <span class="font_">Date founded:</span>'.$this->date_founded.'</td>' ;} ?>
+  </TR>
+ </Table>
+</div>

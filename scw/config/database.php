@@ -1,8 +1,7 @@
-<?php
-
+<?php 
 return array(
-	'user' => 'jharrison',
+	'user' => 'trevorpesout',
 	'pass' => '',
 	'name' => 'c9',
-	'host' => '127.9.106.1',
+	'host' => '127.6.186.129',
 );
