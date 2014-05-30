@@ -51,8 +51,8 @@
             
         }
 
-       Looker = new google.maps.LatLng(36.973983,-122.027819);
-       addMarker(Looker);
+       company = new google.maps.LatLng( <?php print $this->lat; ?>,<?php print $this->lng; ?>);
+       addMarker(company);
        google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(map,marker);
              });

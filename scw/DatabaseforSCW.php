@@ -21,14 +21,8 @@ function get_important_people( $ID){
 function get_name_id(){
     $database = new DB();
     $my_query = "select ID, Full_Name from Members";
-    $result = $database->query( $my_query )->fetch();
+    $result = $database->query( $my_query )->fetchAll();
     return ($result);
 }
-
-print_r (get_member_entry("looker"));
-
-print_r (get_name_id());
-
-print_r (get_important_people("looker"));
 
 ?>
