@@ -7,7 +7,7 @@
 
   <?php if($this->funding != NULL){
   print '
-        <div style="width: 227px;" class=" border"> 
+        <div style="width: 225px;" class=" border"> 
             <span class="font_">Funding:</span> 
                 <BR /> 
                     <span class="small-font">
