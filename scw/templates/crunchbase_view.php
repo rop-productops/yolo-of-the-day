@@ -17,7 +17,7 @@
     ';} ?>
   <?php if($this->team_total != NULL){
     print '
-        <div style="width: 225px;" class="border"> 
+        <div style="width: 225px; float: right;" class="border"> 
             <span class="font_">Total employees:</span> 
                 <BR /> 
                 <span="small-font">'
