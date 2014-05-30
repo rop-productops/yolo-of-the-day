@@ -37,8 +37,12 @@
             <div class="rblock">
                 <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae. Aliquam ut quam non quam cursus mattis. Nulla eu ante ante. Maecenas at lectus lobortis, ornare velit at, mattis nibh. In hac habitasse platea dictumst. Vestibulum laoreet malesuada justo eu eleifend. Nam ac ornare leo. Donec sollicitudin nisi in hendrerit viverra. In sed lacus at tellus iaculis luctus. Duis ullamcorper vitae turpis ac vestibulum. Quisque sed pellentesque mi, sit amet sollicitudin neque.</p>
             </div>
+<<<<<<< HEAD
         </div>  
         
+=======
+        </div>    
+>>>>>>> d427cb749b82ce806319b16eb153bacc01c93779
         <div class="maps" id="google_map">
             <?php print_google_map("looker"); ?>
         </div>        
