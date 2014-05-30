@@ -32,33 +32,3 @@ function get_name_id(){
     $result = $database->query( $my_query )->fetchAll();
     return ($result);
 }
-echo "************************************\n";
-
-echo "You should see all the information for Looker\n";
- 
- print_r (get_member_entry("looker"));
- 
- echo "************************************\n";
-
-echo "You should see all the information all companies\n";
-
-print_r(get_all_member_info());
- 
-echo "************************************\n";
-
-echo "You should see the names and ID's for all companies\n"; 
-
-print_r (get_name_id());
-
-echo "************************************\n";
-
-echo "You should see all the important people for looker\n";
-
-print_r (get_important_people("looker"));
-
-echo "************************************\n";
-
-
-
-
-?>
