@@ -51,10 +51,10 @@
 		<?php print_crunchbase_div("looker"); ?>
 		</div>
             </div>
-        <div class="foot">
+        <div class="footer">
             <div class="flogo" align="center" margin-top="10px"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100" ></div>
         </div>
-        
+    
     </body>
     </html>
        
