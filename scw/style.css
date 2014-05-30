@@ -1,6 +1,6 @@
 .wrap{
     width:900px;
-    height:1300px;
+    height:1350px;
     float:center;
     margin-left:auto;
     margin-right:auto;
@@ -20,6 +20,7 @@
     width:225;
 }
 .flogo{
+    padding:10px;
     margin-left:auto;
     margin-right:auto;
     width:70%;
@@ -88,6 +89,7 @@ a{
     margin-top:-20px;
 }
 .big_quote{
+    padding:20px;
     
 }
 .business
@@ -135,8 +137,9 @@ a{
     float:right;
 
 }
-.foot
+.footer
 {
+    float:left;
     width:900px;
     height:150px;
     background-color:#3E80FA;
@@ -182,6 +185,11 @@ a{
 
 .left {
     float:left;
+}
+.border {
+    border: 1px solid #A0A0A0;
+}
+ 100%;
 }
 .border {
     border: 1px solid #A0A0A0;
