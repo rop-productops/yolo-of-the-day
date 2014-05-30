@@ -10,6 +10,14 @@ function get_member_entry( $ID){
 
 }
 
+function get_all_member_info(){
+    $database = new DB();
+    $my_query = "select * from Members";
+    $result = $database->query( $my_query )->fetchAll();
+    return ($result);
+
+}
+
 function get_important_people( $ID){
     $database = new DB();
     $my_query = "select * from Significant_Employees where Company_ID = '$ID'";
@@ -24,5 +32,3 @@ function get_name_id(){
     $result = $database->query( $my_query )->fetchAll();
     return ($result);
 }
-
-?>
