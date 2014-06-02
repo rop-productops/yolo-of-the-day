@@ -1,6 +1,17 @@
 <?php require_once "crunchbase.php" ?>
 <?php require_once "google_maps.php" ?>
 
+<?php
+
+$id = $this->id;
+$name = $this->name;
+$crunchbase_id = $this->crunchbase_id;
+$linkedin_id = $this->linkedin_id;
+$lat = $this->latitude;
+$long = $this->longitude;
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -39,17 +50,17 @@
             </div>
         </div>  
         <div class="maps" id="google_map">
-            <?php print_google_map("looker"); ?>
+            <?php print_google_map($id); ?>
         </div>        
             <div>
             	
             	<div class="people">
-                	<div class="person1"></div> 
-                	<div class="person2"></div>
+                	<div class="person1"><img class="" align="left" src=""></div> 
+                	<div class="person2"><img class="" align="left" src=""></div>
             	</div>
 <!-- Crunch base HERE -->       
             	<div class="crunch" id="crunchbase">
-		<?php print_crunchbase_div("looker"); ?>
+		<?php print_crunchbase_div($crunchbase_id); ?>
 		</div>
             </div>
         <div class="footer">

@@ -14,7 +14,7 @@ if(!empty($_GET["company"])) {
     $template->longitude = $member_entry["Longitude"];
     $template->name = $member_entry["Full name"];
 
-    $template->render('index.php');
+    $template->render('member_view.php');
 
     //thanks for a great end of the year all!
     //you've been really great and motivated and I know that
