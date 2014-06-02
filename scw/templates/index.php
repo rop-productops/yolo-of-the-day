@@ -50,7 +50,7 @@ $long = $this->longitude;
             </div>
         </div>  
         <div class="maps" id="google_map">
-            <?php print_google_map("looker"); ?>
+            <?php print_google_map($id); ?>
         </div>        
             <div>
             	
@@ -60,7 +60,7 @@ $long = $this->longitude;
             	</div>
 <!-- Crunch base HERE -->       
             	<div class="crunch" id="crunchbase">
-		<?php print_crunchbase_div("looker"); ?>
+		<?php print_crunchbase_div($crunchbase_id); ?>
 		</div>
             </div>
         <div class="footer">
