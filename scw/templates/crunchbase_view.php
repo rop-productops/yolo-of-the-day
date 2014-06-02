@@ -3,11 +3,11 @@
  <Div>
 <!-- Border to see what it is -->
   
-   <div class="Looker border"> <?php print $this->header ; ?></div>
+   <div class="Looker"> <?php print $this->header ; ?></div>
 
   <?php if($this->funding != NULL){
   print '
-        <div style="width: 225px;" class=" border"> 
+        <div style="width: 225px;"> 
             <span class="font_">Funding:</span> 
                 <BR /> 
                     <span class="small-font">
@@ -17,7 +17,7 @@
     ';} ?>
   <?php if($this->team_total != NULL){
     print '
-        <div style="width: 225px; float: right;" class="border"> 
+        <div style="width: 225px; float: right;"> 
             <span class="font_">Total employees:</span> 
                 <BR /> 
                 <span="small-font">'
@@ -27,7 +27,7 @@
         ' ;} ?>
   <?php if($this->description != NULL){
     print '
-        <div class="border small-font"> 
+        <div class="small-font"> 
             <span class="font_">Description:</span>
             <BR /> 
             <span class="small-font">'
@@ -37,7 +37,7 @@
     ' ;} ?>
   <?php if($this->date_founded != NULL){
     print '
-        <div class="border small-font"> 
+        <div class="small-font"> 
             <span class="font_">Date founded:</span> 
             <BR /> 
             <span class="small-font">'
