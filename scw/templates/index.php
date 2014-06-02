@@ -55,8 +55,8 @@ $long = $this->longitude;
             <div>
             	
             	<div class="people">
-                	<div class="person1"></div> 
-                	<div class="person2"></div>
+                	<div class="person1"><img class="" align="left" src=""></div> 
+                	<div class="person2"><img class="" align="left" src=""></div>
             	</div>
 <!-- Crunch base HERE -->       
             	<div class="crunch" id="crunchbase">
