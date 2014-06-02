@@ -32,3 +32,17 @@ function get_name_id(){
     $result = $database->query( $my_query )->fetchAll();
     return ($result);
 }
+
+function get_Long( $ID){
+    $database = new DB();
+    $my_query = "select Longitude from Members where ID = '$ID'";
+    $result = $database->query( $my_query )->fetch();
+    return ($result);
+}
+
+function get_Lat( $ID){
+    $database = new DB();
+    $my_query = "select Latitude from Members where ID = '$ID'";
+    $result = $database->query( $my_query )->fetch();
+    return ($result);
+}
