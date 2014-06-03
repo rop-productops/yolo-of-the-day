@@ -37,12 +37,12 @@ function get_Long( $ID){
     $database = new DB();
     $my_query = "select Longitude from Members where ID = '$ID'";
     $result = $database->query( $my_query )->fetch();
-    return ($result);
+    return ($result[0]);
 }
 
 function get_Lat( $ID){
     $database = new DB();
     $my_query = "select Latitude from Members where ID = '$ID'";
     $result = $database->query( $my_query )->fetch();
-    return ($result);
+    return ($result[0]);
 }
