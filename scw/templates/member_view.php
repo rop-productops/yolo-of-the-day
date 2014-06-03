@@ -57,11 +57,11 @@ $long = $this->longitude;
             	<div class="people">
                 	<div class="person1" style="width: 125px;">
                 	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src="https://c9.io/israelo/scworks/workspace/scw/images/ltabb.png"></IMG>
-                	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec ultricies ipsum. Suspendisse nec eros arcu. Aliquam iaculis, dui id adipiscing pretium, libero lacus aliquet quam, eu vestibulum felis ipsum ac est. Cras purus purus, sollicitudin vitae odio nec, aliquet ultricies purus. Mauris eget vestibulum sapien, sit amet placerat nunc. </p>
+                	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
                 	</div> 
                 	                	<div class="person2" style="width: 125px;">
                  	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src=""></IMG>
-                 	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec ultricies ipsum. Suspendisse nec eros arcu. Aliquam iaculis, dui id adipiscing pretium, libero lacus aliquet quam, eu vestibulum felis ipsum ac est. Cras purus purus, sollicitudin vitae odio nec, aliquet ultricies purus. Mauris eget vestibulum sapien, sit amet placerat nunc. </p>
+                 	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
                  	</div>
              	</div>
  <!-- Crunch base HERE -->       
