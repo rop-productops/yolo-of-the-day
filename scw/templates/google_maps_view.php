@@ -36,7 +36,7 @@
         contentElement.setAttribute("style", "width:360px; height:256px;")
         contentElement.innerHTML = '\x3cscript type="IN/CompanyProfile" data-id="1502592" data-format="inline">\x3c/script>'
         
-        IN.parse(contentElement);
+        // IN.parse(contentElement);
         
         var infowindow = new google.maps.InfoWindow({
             content: contentElement
@@ -51,7 +51,7 @@
             
         }
 
-       company = new google.maps.LatLng( <?php print $this->lat; ?>,<?php print $this->lng; ?>);
+       var company = new google.maps.LatLng(<?php print $this->lat; ?>,<?php print $this->lng; ?>);
        addMarker(company);
        google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(map,marker);
