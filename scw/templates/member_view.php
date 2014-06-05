@@ -55,24 +55,11 @@ $long = $this->longitude;
             <div>
             	
             	<div class="people">
-                	<div class="person1" style="width: 125px;">
+                	<div class="person1">
                 	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src="https://c9.io/israelo/scworks/workspace/scw/images/ltabb.png"></IMG>
                 	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
                 	</div> 
-                	                	<div class="person2" style="width: 125px;">
+                	  <div class="person2">
                  	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src=""></IMG>
                  	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
-                 	</div>
-             	</div>
- <!-- Crunch base HERE -->       
-             	<div class="crunch" id="crunchbase">
- 		<?php print_crunchbase_div($crunchbase_id); ?>
- 	</div>
-            </div>
-         <div class="footer">
-             <div class="flogo" align="center" margin-top="10px"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100" ></div>
-         </div>
-     
-     </body>
-     </html>
-
+                 	</
