@@ -54,12 +54,30 @@ $long = $this->longitude;
         </div>        
             <div>
             	
-            	<div class="people">
-                	<div class="person1">
-                	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src="https://c9.io/israelo/scworks/workspace/scw/images/ltabb.png"></IMG>
-                	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+            	<div style="width:450px;
+    height:250px;
+    background-color:white;
+    float:left;">
+                	<div style="float:left;
+    height:125px;
+    width:450px;">
+                	<IMG width=115px height=115px style="margin:5px;float:left;" src="https://c9.io/israelo/scworks/workspace/scw/images/ltabb.png"></IMG>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 	</div> 
-                	  <div class="person2">
-                 	<IMG width=115px height=115px style="margin-top:5px; margin-bottom:5px;" src=""></IMG>
-                 	<p style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
-                 	</
+                	  <div style="float:left;
+    height:125px;
+    width:450px;">
+                 	<IMG width=115px height=115px style="margin:5px;float:left;" src="http://israel.rop.launchbrigade.com/images/scott.png"></IMG>
+                 	<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+  </div>
+        
+             	<div class="crunch" id="crunchbase">
+  		<?php print_crunchbase_div($crunchbase_id); ?>
+  	</div>
+             </div>
+          <div class="footer">
+              <div class="flogo" align="center" margin-top="10px"><img src="http://santacruzworks.com/images/scworks_logo.png" alt="scworks" width="100" height="100" ></div>
+          </div>
+      
+      </body>
+      </html>
