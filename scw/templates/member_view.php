@@ -71,6 +71,7 @@ $long = $this->longitude;
                  	<IMG width=115px height=115px style="margin:5px;float:left;" src="http://israel.rop.launchbrigade.com/images/scott.png"></IMG>
                  	<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
   </div>
+</div>
         
              	<div class="crunch" id="crunchbase">
   		<?php print_crunchbase_div($crunchbase_id); ?>
