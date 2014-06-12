@@ -22,10 +22,10 @@ if(!empty($_GET["company"])) {
     //here, you'll become great software engineers!!
     //Congradulations!
 
-    print_r($member_entry);
-} else {
-    $name_id=get_name_id($_GET["company"]);
-    print_r($name_id);
+//    print_r($member_entry);
+//} else {
+//    $name_id=get_name_id($_GET["company"]);
+//    print_r($name_id);
 }
 
 ?>
