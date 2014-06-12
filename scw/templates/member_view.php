@@ -28,7 +28,14 @@ $quote2 = $this->quote2;
   <body class="body">
     <div class="wrap">
 
-      <div class="banner" style="background-image:url('<?php print($banner);?>');" >
+      <div class="banner" style="<?php if($banner): ?>
+                                           background-image:url('<?php print($banner);?>');
+                                 <?php else: ?>
+                                           background-color:black;
+                                 <?php endif; ?>
+                                 <?php if($id === "narrative technologies"): ?>
+                                           height:400px;
+                                 <?php endif; ?>" >
         <div class="nav">
         <ul>
           <li class="menu"><a href="#">PROFILES</a></li>
@@ -45,7 +52,7 @@ $quote2 = $this->quote2;
         <div class="exquote"><h1 class="big_quote"><?php print($quote1);?></h1></div>
         <div class="business">
             <div class="lblock">
-                <div class="top"><img class="blogo" align="right" src="http://looker.com/sites/all/themes/looker/logo.png">
+                <div class="top"><img class="blogo" align="right" src="<?php print($logo);?>">
                 </div>
                 <div class="binfo">
                 <p class="blink"><?php print($quote2); ?></p>

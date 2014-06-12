@@ -21,8 +21,8 @@
 .blogo{
     margin-top:20px;
     margin-right:15px;
-    height:62px;
-    width:140px;
+    max-height:80px;
+    max-width:200px;
 }
 .binfo{
     height:125px;
