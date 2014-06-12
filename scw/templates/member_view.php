@@ -1,5 +1,6 @@
 <?php require_once "crunchbase.php" ?>
 <?php require_once "google_maps.php" ?>
+<?php require_once "DatabaseforSCW.php" ?>
 
 <?php
 
@@ -42,7 +43,7 @@ $long = $this->longitude;
                 <div class="top"><img class="blogo" align="right" src="http://looker.com/sites/all/themes/looker/logo.png">
                 </div>
                 <div class="binfo">
-                <p class="blink">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada.</p>
+                <p class="blink"><?php print_r(get_quote1($id)); ?></p>
                 </div>
             </div>
             <div class="rblock">
