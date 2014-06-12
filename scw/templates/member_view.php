@@ -36,7 +36,7 @@ $banner = $this->banner;
 
       <div class="quote">
             <h1 class="look"><?php print($name);?></h1>
-            <h10 class="hero_quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
+            <h10 class="hero_quote"><?php print(get_quote1($id));?></h10></div>
         </div>
         <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum."</h1></div>
         <div class="business">
@@ -63,14 +63,14 @@ $banner = $this->banner;
                 	<div style="float:left;
     height:125px;
     width:450px;">
-                	<IMG width=115px height=115px style="margin:5px;float:left;" src="/images/looker/ltabb.png"></IMG>
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                	<IMG width=115px height=115px style="margin:5px;float:left;" src="<?php print(get_important_people($id)[0]["Image_url"]);?>"></IMG>
+                	<p><?php print(get_important_people($id)[0]["About"]);?></p>
                 	</div> 
                 	  <div style="float:left;
     height:125px;
     width:450px;">
-                 	<IMG width=115px height=115px style="margin:5px;float:left;" src="http://israel.rop.launchbrigade.com/images/scott.png"></IMG>
-                 	<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+                 	<IMG width=115px height=115px style="margin:5px;float:left;" src="<?php print(get_important_people($id)[1]["Image_url"]);?>"></IMG>
+                 	<p ><?php print(get_important_people($id)[1]["About"]);?></p>
   </div>
 </div>
         
