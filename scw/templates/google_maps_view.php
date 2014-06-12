@@ -22,7 +22,7 @@
     <script type="text/javascript">
       function initialize() {
         var mapOptions = {
-          center: new google.maps.LatLng(36.9794318, -122.0310751),
+          center: new google.maps.LatLng(<?php print $this->lat; ?>,<?php print $this->lng; ?>),
           zoom: 14
 
         };
@@ -34,9 +34,9 @@
         
         var contentElement = document.createElement("div")
         contentElement.setAttribute("style", "width:360px; height:256px;")
-        contentElement.innerHTML = '\x3cscript type="IN/CompanyProfile" data-id="1502592" data-format="inline">\x3c/script>'
+        contentElement.innerHTML = '\x3cscript type="IN/CompanyProfile" data-id="<?php print $this->linkedin_id; ?>" data-format="inline">\x3c/script>'
         
-        // IN.parse(contentElement);
+        IN.parse(contentElement);
         
         var infowindow = new google.maps.InfoWindow({
             content: contentElement

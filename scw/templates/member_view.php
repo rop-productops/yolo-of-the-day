@@ -51,7 +51,7 @@ $long = $this->longitude;
             </div>
         </div>  
         <div class="maps" id="google_map">
-            <?php print_google_map($id); ?>
+            <?php print_google_map($id, $linkedin_id); ?>
         </div>        
             <div>
             	
