@@ -13,6 +13,10 @@ if(!empty($_GET["company"])) {
     $template->latitude = $member_entry["Latitude"];
     $template->longitude = $member_entry["Longitude"];
     $template->name = $member_entry["Full_Name"];
+    $template->subhead = $member_entry["Subhead"];
+    $template->longtext = $member_entry["Large_Text"];
+    $template->quote1 = $member_entry["Quote1"];
+    $template->quote2 = $member_entry["Quote2"];
     $template->logo = $member_entry["Company_Pic_Url"];
     $template->banner = $member_entry["Company_Banner_Url"];
 

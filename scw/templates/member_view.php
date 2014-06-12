@@ -12,6 +12,10 @@ $lat = $this->latitude;
 $long = $this->longitude;
 $logo = $this->logo;
 $banner = $this->banner;
+$subhead = $this->subhead;
+$longtext = $this->longtext;
+$quote1 = $this->quote1;
+$quote2 = $this->quote2;
 
 ?>
 
@@ -36,19 +40,19 @@ $banner = $this->banner;
 
       <div class="quote">
             <h1 class="look"><?php print($name);?></h1>
-            <h10 class="hero_quote"><?php print(get_quote1($id));?></h10></div>
+            <h10 class="hero_quote"><?php print($subhead);?></h10></div>
         </div>
-        <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum."</h1></div>
+        <div class="exquote"><h1 class="big_quote"><?php print($quote1);?></h1></div>
         <div class="business">
             <div class="lblock">
                 <div class="top"><img class="blogo" align="right" src="http://looker.com/sites/all/themes/looker/logo.png">
                 </div>
                 <div class="binfo">
-                <p class="blink"><?php print(get_quote2($id)); ?></p>
+                <p class="blink"><?php print($quote2); ?></p>
                 </div>
             </div>
             <div class="rblock">
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum. Maecenas feugiat posuere ligula, aliquam hendrerit erat tristique vitae. Aliquam ut quam non quam cursus mattis. Nulla eu ante ante. Maecenas at lectus lobortis, ornare velit at, mattis nibh. In hac habitasse platea dictumst. Vestibulum laoreet malesuada justo eu eleifend. Nam ac ornare leo. Donec sollicitudin nisi in hendrerit viverra. In sed lacus at tellus iaculis luctus. Duis ullamcorper vitae turpis ac vestibulum. Quisque sed pellentesque mi, sit amet sollicitudin neque.</p>
+                <p class="desc"><?php print($longtext);?></p>
             </div>
         </div>  
         <div class="maps" id="google_map">

@@ -47,17 +47,3 @@ function get_Lat( $ID){
     return ($result[0]);
 }
 
-function get_quote1( $ID){
-    $database = new DB();
-    $my_query = "select Quote1 from Members where ID = '$ID'";
-    $result = $database->query( $my_query )->fetch();
-    return ($result["Quote1"]);
-}
-
-function get_quote2( $ID){
-    $database = new DB();
-    $my_query = "select Quote2 from Members where ID = '$ID'";
-    $result = $database->query( $my_query )->fetch();
-    return ($result["Quote2"]);
-}
-
