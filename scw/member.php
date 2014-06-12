@@ -12,7 +12,9 @@ if(!empty($_GET["company"])) {
     $template->linkedin_id = $member_entry["LinkedinID"];
     $template->latitude = $member_entry["Latitude"];
     $template->longitude = $member_entry["Longitude"];
-    $template->name = $member_entry["Full name"];
+    $template->name = $member_entry["Full_Name"];
+    $template->logo = $member_entry["Company_Pic_Url"];
+    $template->banner = $member_entry["Company_Banner_Url"];
 
     $template->render('member_view.php');
 

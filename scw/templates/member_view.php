@@ -10,6 +10,8 @@ $crunchbase_id = $this->crunchbase_id;
 $linkedin_id = $this->linkedin_id;
 $lat = $this->latitude;
 $long = $this->longitude;
+$logo = $this->logo;
+$banner = $this->banner;
 
 ?>
 
@@ -21,20 +23,19 @@ $long = $this->longitude;
   </head>
   <body class="body">
     <div class="wrap">
-    
-        <div class="banner">
-        
-            <div class="nav">
-            <ul>
-                <li class="menu"><a href="#">PROFILES</a></li>
-                <li class="menu"><a href="#">WORKSPACES</a></li>
-                <li class="menu"><a href="#">NEWS</a></li>
-                <li class="menu"><a href="#">RESOURCES</a></li>
-            </ul>
-            </div>
-    
-        <div class="quote">
-            <h1 class="look">Looker, finds.</h1>
+
+      <div class="banner" style="background-image:url('<?php print($banner);?>');" >
+        <div class="nav">
+        <ul>
+          <li class="menu"><a href="#">PROFILES</a></li>
+          <li class="menu"><a href="#">WORKSPACES</a></li>
+          <li class="menu"><a href="#">NEWS</a></li>
+          <li class="menu"><a href="#">RESOURCES</a></li>
+        </ul>
+      </div>
+
+      <div class="quote">
+            <h1 class="look"><?php print($name);?></h1>
             <h10 class="hero_quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."</h10></div>
         </div>
         <div class="exquote"><h1 class="big_quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan tellus vel tincidunt facilisis. Sed sed fringilla est. Quisque ullamcorper congue malesuada. Proin posuere porta dictum."</h1></div>
@@ -43,7 +44,7 @@ $long = $this->longitude;
                 <div class="top"><img class="blogo" align="right" src="http://looker.com/sites/all/themes/looker/logo.png">
                 </div>
                 <div class="binfo">
-                <p class="blink"><?php print_r(get_quote1($id)); ?></p>
+                <p class="blink"><?php print(get_quote2($id)); ?></p>
                 </div>
             </div>
             <div class="rblock">
@@ -62,7 +63,7 @@ $long = $this->longitude;
                 	<div style="float:left;
     height:125px;
     width:450px;">
-                	<IMG width=115px height=115px style="margin:5px;float:left;" src="https://c9.io/israelo/scworks/workspace/scw/images/ltabb.png"></IMG>
+                	<IMG width=115px height=115px style="margin:5px;float:left;" src="/images/looker/ltabb.png"></IMG>
                 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 	</div> 
                 	  <div style="float:left;
